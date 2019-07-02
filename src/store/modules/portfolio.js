@@ -52,8 +52,9 @@ const getters = {
         });
     },
     funds (state) {
-        state.funds;
+        return state.funds;
     }
+
 };
 
 export default {
