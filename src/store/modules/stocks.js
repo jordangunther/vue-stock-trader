@@ -20,7 +20,7 @@ const mutations = {
 
 const actions = {
     buyStock: ({ commit }, order) => {
-        commit();
+        commit('BUY_STOCK', order);
     },
     initStocks: ({commit}) => {
         // use the SET_STOCKS mutation to set the state's stock with the dummy data
